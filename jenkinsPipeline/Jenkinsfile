@@ -7,7 +7,7 @@ pipeline{
             
             steps{
             
-            bat 'mvn clean compile'
+            bat 'mvn -f jenkinsPipeline/pom.xml clean install'
             }
 
             }
